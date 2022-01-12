@@ -35,7 +35,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  animation: bounce 1s infinite;
+  animation: bounce 2.5s infinite;
 }
 
 .grupo {
@@ -48,7 +48,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  animation: bounce 1s infinite;
+  animation: bounce 2.5s infinite;
 }
 
 @keyframes bounce {
@@ -95,6 +95,16 @@
   justify-content: center;
   width: 100%;
 }
+
+/* @variants hover {
+  .zoom {
+    transform: scale(0.8)
+  }
+
+  .bigCove {
+    background-color: 'blue'
+  }
+} */
 
 .unique-dc {
   padding: 1em;

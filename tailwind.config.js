@@ -13,6 +13,7 @@ module.exports = {
       "./src/*.html",
       "./public/**/*.js",
       "./public/*.js",
+      // "./src/**/*.{js,jsx,ts,tsx}",
     ],
     options: {
       safelist: [],
@@ -24,8 +25,15 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'yuji': ['Yuji Syuku', 'serif'],
-        'estonia': ['Estonia', 'cursive'],
+        'licorice': ['Licorice'],
+        'moonDance': ['Moon Dance'],
+        'yuji': ['Yuji Syuku'],
+        'estonia': ['Estonia'],
+        'ibmPlex': ['IBM Plex Mono' ],
+        'josefin': ['Josefin Sans-serif'],
+        'pressStart': ['Press Start 2P'],
+        'russoOne': ['Russo One-serif'],
+        'shadowInto': ['Shadows Into Light']
       },
       minHeight: {
         "screen-75": "75vh",
@@ -83,6 +91,9 @@ module.exports = {
       backgroundSize: {
         full: "100%",
       },
+      rotate: {
+        '17': '17deg',
+      }
     },
   },
   variants: [
@@ -132,14 +143,14 @@ module.exports = {
         {
           [`@media (min-width: ${screens.xl})`]: {
             ".container": {
-              "max-width": "1280px",
+              "max-width": "1480px",
             },
           },
         },
         {
           [`@media (min-width: ${screens["2xl"]})`]: {
             ".container": {
-              "max-width": "1280px",
+              "max-width": "1480px",
             },
           },
         },
