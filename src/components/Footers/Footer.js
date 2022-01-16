@@ -43,7 +43,7 @@ export default function Footer() {
 
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-200 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} by{" Sebastian Calle / Misión NFT LATAM"}
+                Copyright © {new Date().getFullYear()} Misión NFT LATAM
                 {/* <a
                   href="https://www.creative-tim.com?ref=nr-footer"
                   className="text-blueGray-500 hover:text-blueGray-800"

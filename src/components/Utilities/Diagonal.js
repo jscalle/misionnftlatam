@@ -1,4 +1,4 @@
-export default function Diagonal() {
+export default function Diagonal({color}) {
     return (
         <>
             <div className="pt-12"
@@ -10,7 +10,7 @@ export default function Diagonal() {
                     y="0"
                 >
                     <polygon
-                        className="text-gray-200 fill-current"
+                        className={`${color} fill-current`}
                         points="2560 0 2560 103 0 103"
                     ></polygon>
                 </svg>
