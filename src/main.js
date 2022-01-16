@@ -55,7 +55,11 @@ export default function Profile() {
 
         {/* <section className=""> */}
         <section className="pb-20 bg-gray-200 -mt-32">
+<<<<<<< HEAD
           <div className="w-full md:w-11/12 mx-auto px-1 md:px-4">
+=======
+          <div className="w-full md:w-9/12 mx-auto px-1 md:px-4">
+>>>>>>> dev
 
             <div className="absolute top-0 mt-20 bg-transparent flex justify-center w-10/12 left-0 md:ml-40 ml-10">
               <CardInfo imagn={persRight} bgCircule={'bg-green-300'} option={4} width={'3/12'} animation={'animate-pulse'} hide/>
@@ -64,14 +68,22 @@ export default function Profile() {
             </div>
 
             <div className="flex flex-wrap items-center ">
+<<<<<<< HEAD
               <div className="w-full md:w-8/12 px-4 mr-auto ml-auto">
+=======
+              <div className="w-full md:w-10/12 px-4 mr-auto ml-auto">
+>>>>>>> dev
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-4xl mb-2 font-semibold leading-normal">
                   ¿Que es Misión NFT LatAm?
                 </h3>
+<<<<<<< HEAD
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-justify">
+=======
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+>>>>>>> dev
                   <span className="font-normal">MISIÓN NFT LATAM</span> es un proyecto de NFT educativo y de cultura para entusiastas de las nuevas tecnologías (inspirado) por y para toda la comunidad latina, parte con el objetivo de expandir el conocimiento de estas tecnologías y añadir una herramienta más a la comunidad, uno de los objetivos es ser el mejor proyecto para iniciar en este nuevo “mundo”, en este “verso” y que aumente la económico de las personas y que seamos pioneras y representantes de latinoamérica para el nuevo mundo, en esta nueva realidad.
                 </p>
                 {/* <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
@@ -87,13 +99,21 @@ export default function Profile() {
             </div>
 
             
+<<<<<<< HEAD
             <div className="flex flex-wrap mt-24 w-full">
+=======
+            <div className="flex flex-wrap mt-24">
+>>>>>>> dev
               <CardInfo title='Dinámica principal de las MISIONES' content1={cont1_1} content2={cont1_2} bgCircule={'bg-red-400'} option={2} width={'4/12'} />
               <CardInfo imagn={persFront} bgCircule={'bg-green-300'} option={4} width={'4/12'} animation={'animate-pulse'}/>
               <CardInfo title='¿Dónde entra la comunidad en este punto?' content1={cont2} bgCircule={'bg-blue-300'} option={1} width={'4/12'} />
             </div>
 
+<<<<<<< HEAD
             <div className="flex flex-wrap mt-4 w-full">
+=======
+            <div className="flex flex-wrap mt-4">
+>>>>>>> dev
               <CardInfo title='Detalles frente a MISIÓN NFT LATAM' content1={cont3} bgCircule={'bg-green-300'} option={1} width={'5/12'}/>
             </div>
             
